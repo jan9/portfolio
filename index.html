@@ -1,240 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juhye's Portfolio</title>
-    <meta name="description" content="Porfolio for upcoming software engineer Juhye">
-    <meta name="author" content="Juhye">
-    <link rel="icon" type="image/png" href="imgs/favicon.png"/>
-    <script src="https://kit.fontawesome.com/145ae2b7f0.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta
+      name="description"
+      content="Porfolio for upcoming software engineer Juhye"
+    />
+    <meta name="author" content="Juhye" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/145ae2b7f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- font-family: 'Quicksand', sans-serif; -->
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- Navbar -->
     <nav id="navbar">
-       <div class="navbar__logo">
-        <img class="navbar__icon" width="20" alt="homeIcon" src="imgs/favicon.png"/>
-           <a href="#">Juhye</a>
-       </div>
-        <ul class="navbar__menu">
-            <li class="navbar__menu__item active">Home</li>
-            <li class="navbar__menu__item">About</li>
-            <li class="navbar__menu__item">Skills</li>
-            <li class="navbar__menu__item">Work</li>
-            <li class="navbar__menu__item">Testimonials</li>
-            <li class="navbar__menu__item">Contact</li>
-        </ul>
+      <div class="navbar__logo">
+        <img
+          class="navbar__icon"
+          width="20"
+          alt="homeIcon"
+          src="imgs/favicon.png"
+        />
+        <a href="#">Juhye</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">Work</li>
+        <li class="navbar__menu__item">Testimonials</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
     </nav>
-   
+
     <!--Home-->
     <section id="home">
-        <img src="imgs/favicon.png" alt="profile photo" width="200" class="home__avatar"/>
-        <h1 class="home__title">Hello World, <br/> I'm Juhye</h1>
-        <h2 class="home__description">I'm a software developer from Seattle, WA</h2>
-        <button class="home__button">Contact me</button>
+      <img
+        src="imgs/favicon.png"
+        alt="profile photo"
+        width="200"
+        class="home__avatar"
+      />
+      <h1 class="home__title">
+        Hello World, <br />
+        I'm Juhye
+      </h1>
+      <h2 class="home__description">
+        I'm a software developer from Seattle, WA
+      </h2>
+      <button class="home__button">Contact me</button>
     </section>
-   
+
     <!--About-->
     <section id="about" class="section">
-        <h1>About me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <div class="about__techfields">
-            <div class="techfield__item">
-                <div class="techfield__icon">
-                    <i class="fab fa-html5"></i>
-                </div>
-                <h2 class="techfield__title">Front-end</h2>
-                <div class="techfield__description">HTML, CSS, Javascript, Typescript 
-                    <br/>React, WebAPIs
-                </div>
-            </div>
-            <div class="techfield__item">
-                <div class="techfield__icon">
-                    <i class="fas fa-server"></i>
-                </div>
-                <h2 class="techfield__title">Back-end</h2>
-                <div class="techfield__description">Node.js, PHP, Laravel, PostgreSQL, MySQL
-                </div>
-            </div>
-            <div class="techfield__item">
-                <div class="techfield__icon">
-                    <i class="fas fa-toolbox"></i>
-                </div>
-                <h2 class="techfield__title">ss</h2>
-                <div class="techfield__description">Moodle, Python, AWS Web Services, Serverless, 
-                </div>
-            </div>
+      <h1>About me</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <div class="about__techfields">
+        <div class="techfield__item">
+          <div class="techfield__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="techfield__title">Front-end</h2>
+          <div class="techfield__description">
+            HTML, CSS, Javascript, Typescript <br />React, WebAPIs
+          </div>
         </div>
-        <h1>Work Experience</h1>
-        <div class="about__jobs">
-            <div class="job">
-                <i class="fas fa-briefcase"></i>
-                <div class="job__description">
-                    <p class="job__name">Junior Software Developer</p>
-                    <p class="job__period">2019.9 - present</p>
-                </div>
-            </div>
-            <div class="job">
-                <i class="fas fa-briefcase"></i>
-                <div class="job__description">
-                    <p class="job__name">Software Developer Intern</p>
-                    <p class="job__period">2019.6 - 2019.9</p>
-                </div>
-            </div>
+        <div class="techfield__item">
+          <div class="techfield__icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h2 class="techfield__title">Back-end</h2>
+          <div class="techfield__description">
+            Node.js, PHP, Laravel, PostgreSQL, MySQL
+          </div>
         </div>
+        <div class="techfield__item">
+          <div class="techfield__icon">
+            <i class="fas fa-toolbox"></i>
+          </div>
+          <h2 class="techfield__title">ss</h2>
+          <div class="techfield__description">
+            Moodle, Python, AWS Web Services, Serverless,
+          </div>
+        </div>
+      </div>
+      <h1>Work Experience</h1>
+      <div class="about__jobs">
+        <div class="job">
+          <i class="fas fa-briefcase"></i>
+          <div class="job__description">
+            <p class="job__name">Junior Software Developer</p>
+            <p class="job__period">2019.9 - present</p>
+          </div>
+        </div>
+        <div class="job">
+          <i class="fas fa-briefcase"></i>
+          <div class="job__description">
+            <p class="job__name">Software Developer Intern</p>
+            <p class="job__period">2019.6 - 2019.9</p>
+          </div>
+        </div>
+      </div>
     </section>
-   
+
     <!-- Skills -->
-    <section id="skills" class="section"> 
+    <section id="skills" class="section">
+      <div class="section__container">
         <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quas reprehenderit minima harum officia aperiam. 
-            Qui, dicta reiciendis deserunt perferendis aspernatur, dolores aperiam adipisci iusto fugiat laudantium, ipsam sunt necessitatibus blanditiis?</p>
-    <div class="skillset">
-        <div class="skillset__left">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+          reprehenderit minima harum officia aperiam. Qui, dicta reiciendis
+          deserunt perferendis aspernatur, dolores aperiam adipisci iusto fugiat
+          laudantium, ipsam sunt necessitatibus blanditiis?
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
             <h3 class="skillset__title">Skills</h3>
             <div class="skill">
-                <div class="skill__description">
-                    <div class="span">HTML</div>
-                    <div class="span">99%</div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                </div>
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill_value" style="width: 99%"></div>
+              </div>
             </div>
             <div class="skill">
-                <div class="skill__description">
-                    <div class="span">CSS</div>
-                    <div class="span">99%</div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                </div>
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill_value" style="width: 90%"></div>
+              </div>
             </div>
             <div class="skill">
-                <div class="skill__description">
-                    <div class="span">Javascript</div>
-                    <div class="span">99%</div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                </div>
+              <div class="skill__description">
+                <span>Javascript</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill_value" style="width: 99%"></div>
+              </div>
             </div>
-        </div>
-        <div class="skillset__right">
+          </div>
+          <div class="skillset__right">
             <div class="tools">
-                <h3 class="skillset__title">Tools</h3>
-                <ul class="tools__list">
-                    <li><span>Visual Studio Code</span></li>
-                    <li><span>ZSH</span></li>
-                    <li><span>Bash</span></li>
-                    <li><span>Zeplin</span></li>
-                    <li><span>Jira</span></li>
-                </ul>
+              <h3 class="skillset__title noTopMargin">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>ZSH</span></li>
+                <li><span>Bash</span></li>
+                <li><span>Zeplin</span></li>
+                <li><span>Jira</span></li>
+              </ul>
             </div>
             <div class="etc">
-                <h3 class="skillset__title">Etc.</h3>
-                <ul class="etc__list">
-                    <li><span>Git</span></li>
-                    <li><span>Agile/Scrum</span></li>
-                    <li><span>Problem Solving</span></li>
-                </ul>
+              <h3 class="skillset__title noTopMargin">Etc.</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>Agile/Scrum</span></li>
+                <li><span>Problem Solving</span></li>
+              </ul>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
     </section>
 
-     <!-- Work -->
-    <section id="work" class="section"> 
-        <h1>My Side Projects</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-            <button class="category__btn">
-            All<span class="category__count">4 </span>
-            </button>
-            <button class="category__btn">Front-end<span class="category__count">4 </span></button>
-            <button class="category__btn">Back-end<span class="category__count">4 </span></button>
-            <button class="category__btn">Others<span class="category__count">4 </span></button>
-        </div>
-        <div class="work__projects">
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project1.png" width="200" alt="macbook"/>
-            </a>
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project2.png" width="200" alt="macbook"/>
-            </a>
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project3.png" width="200" alt="macbook"/>
-            </a>
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project4.png" width="200" alt="macbook"/>
-            </a>
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project5.png" width="200" alt="macbook"/>
-            </a>
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project6.png" width="200" alt="macbook"/>
-            </a>
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project7.png" width="200" alt="macbook"/>
-            </a>
-            <a href="https://github.com/jan9" class="project" target="_blank">
-                <img class="project__img" src="imgs/projects/project8.png" width="200" alt="macbook"/>
-            </a>
-        </div>
+    <!-- Work -->
+    <section id="work" class="section">
+      <h1>My Side Projects</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn">
+          All<span class="category__count">4 </span>
+        </button>
+        <button class="category__btn">
+          Front-end<span class="category__count">4 </span>
+        </button>
+        <button class="category__btn">
+          Back-end<span class="category__count">4 </span>
+        </button>
+        <button class="category__btn">
+          Others<span class="category__count">4 </span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project1.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project2.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project3.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project4.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project5.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project6.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project7.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+        <a href="https://github.com/jan9" class="project" target="_blank">
+          <img
+            class="project__img"
+            src="imgs/projects/project8.png"
+            width="200"
+            alt="macbook"
+          />
+        </a>
+      </div>
     </section>
 
-     <!-- Testimonials -->
+    <!-- Testimonials -->
     <section id="testimonials" class="section">
-        <h1>Testimonials</h1>
-        <h3>See what they say about me</h3>
-        <div class="testimonials">
-            <div class="testimonial">
-                <!-- <img src="img/" alt="Person" class="testimonial__avatar"/> -->
-                <i class="fas fa-user"></i>
-                <div class="testimonial__speech-bubble">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam id ut amet, fugiat eos laborum alias exercitationem, culpa consequuntur atque tempora similique, perferendis ipsum non dolorem vero sint dignissimos autem.</p>
-                    <p class="name"><a href="">Jeff</a></p>
-                </div>
-            </div>
-            <div class="testimonial">
-                <!-- <img src="img/" alt="Person" class="testimonial__avatar"/> -->
-                <i class="fas fa-user"></i>
-                <div class="testimonial__speech-bubble">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam id ut amet, fugiat eos laborum alias exercitationem, culpa consequuntur atque tempora similique, perferendis ipsum non dolorem vero sint dignissimos autem.</p>
-                    <p class="name"><a href="">Ian</a></p>
-                </div>
-            </div>
+      <h1>Testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <!-- <img src="img/" alt="Person" class="testimonial__avatar"/> -->
+          <i class="fas fa-user"></i>
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam id
+              ut amet, fugiat eos laborum alias exercitationem, culpa
+              consequuntur atque tempora similique, perferendis ipsum non
+              dolorem vero sint dignissimos autem.
+            </p>
+            <p class="name"><a href="">Jeff</a></p>
+          </div>
         </div>
+        <div class="testimonial">
+          <!-- <img src="img/" alt="Person" class="testimonial__avatar"/> -->
+          <i class="fas fa-user"></i>
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam id
+              ut amet, fugiat eos laborum alias exercitationem, culpa
+              consequuntur atque tempora similique, perferendis ipsum non
+              dolorem vero sint dignissimos autem.
+            </p>
+            <p class="name"><a href="">Ian</a></p>
+          </div>
+        </div>
+      </div>
     </section>
 
-     <!-- Contact -->
+    <!-- Contact -->
     <section id="contact" class="section">
-        <h1 class="contact__title">Let's talk</h1>
-        <h2 class="contact__email">edujuhye@gmail.com</h2>
-        <div class="contact__links">
-            <a href="https://github.com/jan9" target="_blank">
-                <i class="fab fa-github-square"></i>
-            </a>
-            <a href="http://github.com/jan9" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-        </div>
-        <p class="contact__rights">
-            Made by Juhye An - All rights reserved
-        </p>
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">edujuhye@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/jan9" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a href="http://github.com/jan9" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="contact__rights">Made by Juhye An - All rights reserved</p>
     </section>
-</body>
+  </body>
 </html>
