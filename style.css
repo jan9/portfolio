@@ -28,12 +28,35 @@
     --weight-regular: 400;
 
     /* size */
- 
+    --size-border-radius: 4px;
 }
 
 /* Universal tags */
 * {
     box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 /* Typography */
@@ -63,4 +86,139 @@ p {
     font-weight: var(--weight-semi-regular);
     color: var(--color-black);
     margin: 4px 0px;
+}
+
+/* NavBar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-pink);
+    align-items: center;
+    color: var(--color-white);
+    padding: 16px;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__logo {
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+}
+
+.navbar__menu__item {
+    padding: 8px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.navbar__menu__item.active {
+    border: 1px solid var(--color-white);
+    border-radius: var(--size-border-radius);
+}
+
+.navbar__menu__item:hover {
+    background-color: var(--color-dark-pink);
+    border-radius: var(--size-border-radius);
+}
+
+/* Home */
+#home {
+    background: url("imgs/home-background.png") center/cover no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.home__avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+    background-color: var(--color-white);
+}
+
+.home__title,
+.home__description {
+    color: var(--color-white);
+}
+
+.home__button {
+    color: var(--color-white);
+    font-size: var(--font-regular);
+    font-weight: var(--weight-semi-bold);
+    margin: 24;
+    padding: 8px 12px;
+    border: 2px solid var(--color-white);
+    border-radius: var(--size-border-radius);
+}
+
+/* Section common */
+.section {
+    padding: 50px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* About */
+.about__techfields {
+    display: flex;
+    justify-content:space-between;
+   margin: 80px 0;
+}
+
+.techfield__icon {
+    width: 170px;
+    height: 170px;
+    line-height: 170px;
+    font-size: 70px;
+    /* background-color: yellow; */
+    margin: auto;
+    border: 1px solid var(--color-blue);
+    border-radius: 50%;
+    margin-bottom: 16px;
+    color: var(--color-blue);
+}
+
+.techfield__icon:hover i {
+    color: var(--color-pink);
+    transform: rotate(-30deg) scale(1.1);
+}
+
+.techfield__icon i {
+    transition: all 300ms ease;
+}
+
+.techfield__title, .techfield__description {
+    color: var(--color-dark-grey);
+}
+
+.techfield__description {
+    font-size: var(--font-small);
+}
+
+.job {
+    display: flex;
+    align-items: center;
+}
+
+.job__description {
+    margin: 0 16px;
+    text-align: left;
+}
+
+.job__name, 
+.job__period {
+    color: var(--color-light-grey);
+
+}
+
+.job__name {
+    font-size: var(--font-small);
+}
+
+.job__period {
+    font-size: var(--font-micro);
 }

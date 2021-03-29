@@ -24,25 +24,25 @@
            <a href="#">Juhye</a>
        </div>
         <ul class="navbar__menu">
-            <li class="navbar__menu__item">Home</li>
+            <li class="navbar__menu__item active">Home</li>
             <li class="navbar__menu__item">About</li>
             <li class="navbar__menu__item">Skills</li>
             <li class="navbar__menu__item">Work</li>
-            <li class="navbar__menu__item">testimonials</li>
+            <li class="navbar__menu__item">Testimonials</li>
             <li class="navbar__menu__item">Contact</li>
         </ul>
     </nav>
    
     <!--Home-->
-    <div class="home">
+    <section id="home">
         <img src="imgs/favicon.png" alt="profile photo" width="200" class="home__avatar"/>
-        <h1 class="home__title">Hello World, <br/> My name is Juhye</h1>
+        <h1 class="home__title">Hello World, <br/> I'm Juhye</h1>
         <h2 class="home__description">I'm a software developer from Seattle, WA</h2>
-        <button class="home__button">Contact Me</button>
-    </div>
+        <button class="home__button">Contact me</button>
+    </section>
    
     <!--About-->
-    <section id="about">
+    <section id="about" class="section">
         <h1>About me</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -54,48 +54,49 @@
                 <div class="techfield__icon">
                     <i class="fab fa-html5"></i>
                 </div>
-                <div class="techfield__title">Front-end</div>
+                <h2 class="techfield__title">Front-end</h2>
                 <div class="techfield__description">HTML, CSS, Javascript, Typescript 
                     <br/>React, WebAPIs
                 </div>
             </div>
-        </div>
-        <div class="about__techfields">
             <div class="techfield__item">
                 <div class="techfield__icon">
                     <i class="fas fa-server"></i>
                 </div>
-                <div class="techfield__title">Back-end</div>
+                <h2 class="techfield__title">Back-end</h2>
                 <div class="techfield__description">Node.js, PHP, Laravel, PostgreSQL, MySQL
                 </div>
             </div>
-        </div>
-        <div class="about__techfields">
             <div class="techfield__item">
                 <div class="techfield__icon">
                     <i class="fas fa-toolbox"></i>
                 </div>
-                <div class="techfield__title">ss</div>
+                <h2 class="techfield__title">ss</h2>
                 <div class="techfield__description">Moodle, Python, AWS Web Services, Serverless, 
                 </div>
             </div>
         </div>
+        <h1>Work Experience</h1>
         <div class="about__jobs">
             <div class="job">
                 <i class="fas fa-briefcase"></i>
-                <p class="job__name">Junior Software Developer</p>
-                <p class="job__period">2019.9 - present</p>
+                <div class="job__description">
+                    <p class="job__name">Junior Software Developer</p>
+                    <p class="job__period">2019.9 - present</p>
+                </div>
             </div>
             <div class="job">
                 <i class="fas fa-briefcase"></i>
-                <p class="job__name">Software Developer Intern</p>
-                <p class="job__period">2019.6 - 2019.9</p>
+                <div class="job__description">
+                    <p class="job__name">Software Developer Intern</p>
+                    <p class="job__period">2019.6 - 2019.9</p>
+                </div>
             </div>
         </div>
     </section>
    
     <!-- Skills -->
-    <section id="skills">
+    <section id="skills" class="section"> 
         <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -156,7 +157,7 @@
     </section>
 
      <!-- Work -->
-    <section id="work">
+    <section id="work" class="section"> 
         <h1>My Side Projects</h1>
         <h3>Projects</h3>
         <div class="work__categories">
@@ -196,7 +197,7 @@
     </section>
 
      <!-- Testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="section">
         <h1>Testimonials</h1>
         <h3>See what they say about me</h3>
         <div class="testimonials">
@@ -220,7 +221,7 @@
     </section>
 
      <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="section">
         <h1 class="contact__title">Let's talk</h1>
         <h2 class="contact__email">edujuhye@gmail.com</h2>
         <div class="contact__links">
