@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Juhye's Portfolio</title>
+    <title>Juhye An</title>
     <meta
       name="description"
       content="Porfolio for upcoming software engineer Juhye"
     />
-    <meta name="author" content="Juhye" />
+    <meta name="author" content="Juhye An" />
     <link rel="icon" type="image/png" href="imgs/favicon.png" />
     <script
       src="https://kit.fontawesome.com/145ae2b7f0.js"
@@ -28,21 +28,17 @@
     <!-- Navbar -->
     <nav id="navbar">
       <div class="navbar__logo">
-        <img
-          class="navbar__icon"
-          width="20"
-          alt="homeIcon"
-          src="imgs/favicon.png"
-        />
-        <a href="#">Juhye</a>
+        <a href="#">Juhye An</a>
       </div>
       <ul class="navbar__menu">
-        <li class="navbar__menu__item active">Home</li>
-        <li class="navbar__menu__item">About</li>
-        <li class="navbar__menu__item">Skills</li>
-        <li class="navbar__menu__item">Work</li>
-        <li class="navbar__menu__item">Testimonials</li>
-        <li class="navbar__menu__item">Contact</li>
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">Work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">
+          Testimonials
+        </li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
       </ul>
     </nav>
 
@@ -53,20 +49,22 @@
 
     <!--Home-->
     <section id="home">
-      <img
-        src="imgs/favicon.png"
-        alt="profile photo"
-        width="200"
-        class="home__avatar"
-      />
-      <h1 class="home__title">
-        Hello World, <br />
-        I'm Juhye
-      </h1>
-      <h2 class="home__description">
-        I'm a software developer from Seattle, WA
-      </h2>
-      <button class="home__button">Contact me</button>
+      <div class="home__container">
+        <img
+          src="imgs/person.png"
+          alt="profile photo"
+          width="200"
+          class="home__avatar"
+        />
+        <h1 class="home__title">
+          Hello World, <br />
+          I'm Juhye
+        </h1>
+        <h2 class="home__description">
+          I'm a software developer from Seattle, WA
+        </h2>
+        <button class="home__button">Contact me</button>
+      </div>
     </section>
 
     <!--About-->
@@ -365,7 +363,7 @@
         <a href="https://github.com/jan9" target="_blank">
           <i class="fab fa-github-square"></i>
         </a>
-        <a href="http://github.com/jan9" target="_blank">
+        <a href="https://www.linkedin.com/in/juhyean" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
